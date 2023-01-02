@@ -269,8 +269,11 @@
    row-gap: 30px;
  }
 
+ .portfolio-card > li {
+  border: 1px solid #EEEEEE;
+ }
+
  .portfolio-content {
-   border: 1px solid #EEEEEE;
    padding: 20px 24px;
  }
 
