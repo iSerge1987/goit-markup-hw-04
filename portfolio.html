@@ -26,9 +26,9 @@
           <!-- <hr> -->
         </nav>
   
-        <ul class="auth-nav"> 
-          <li><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts-nav">
+          <li><a href="mailto:info@devstudio.com" lang="en" class="nav-contacts mail">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="nav-contacts tel">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -48,63 +48,63 @@
 
           <h2 hidden>Проєкти</h2>
           <ul class="portfolio-card">
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio1.jpg" alt="Веб-сторінка на ноутбуці" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Технокряк</h3>
                <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio2.jpg" alt="Постер із зображенням баскетболістів" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio3.jpg" alt="Емблема ресторана Сифуд" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h3>
                <p class="portfolio-text">Додаток</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio4.jpg" alt="Навушники" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Проєкт <span lang="en">Prime</span></h3>
                <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio5.jpg" alt="Дві невеликі коробки" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Проєкт <span lang="en">Boxes</span></h3>
                <p class="portfolio-text">Додаток</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio6.jpg" alt="Видання, відкрите на двадцять третій сторінці" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title"><span lang="en">Inspiration has no Borders</span></h3>
                <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio7.jpg" alt="Бирка Лейбл Таг" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Видання <span lang="en">Limited Edition</span></h3>
                <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio8.jpg" alt="Процес роботи на ноутбуці" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title">Проєкт <span lang="en">LAB</span></h3>
                <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-tumb">
               <img src="./images/portfolio9.jpg" alt="Відкритий ноутбук" width="370">
               <div class="portfolio-content">
                <h3 class="portfolio-title"><span lang="en">Growing Business</span></h3>
@@ -119,14 +119,53 @@
     <footer class="footer">
       <!-- Footer Content -->
       <div class="container">
-        <a href="./index.html" lang="en" class="studio-logo"><span class="web-logo">Web</span>Studio</a>
-        <address id="contacts" class="contacts">
-          <ul>
-            <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com" lang="en" class="contacts-link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+        <div class="adress">
+          <a href="./index.html" lang="en" class="studio-logo"><span class="web-logo">Web</span>Studio</a>
+          <address id="contacts" class="contacts">
+            <ul>
+              <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
+              <li><a href="mailto:info@devstudio.com" lang="en" class="contacts-link">info@devstudio.com</a></li>
+              <li><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="social">
+          <h3 class="social-title">Приєднуйтесь</h3>
+          <ul class="social-list">
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <!-- <use href="./images/instagram.svg"></use> -->
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <!-- <use href="./images/twitter.svg"></use> -->
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <!-- <use href="./images/facebook.svg"></use> -->
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="">
+                <svg class="social-icon">
+                  <!-- <use href="./images/linkedin.svg"></use> -->
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
